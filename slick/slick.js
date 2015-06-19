@@ -293,6 +293,7 @@
                     animProps[_.animType] = 'translate3d(0px,' + targetLeft + 'px, 0px)';
                 }
                 _.$slideTrack.css(animProps);
+                //just testing a commit
 
                 if (callback) {
                     setTimeout(function() {
